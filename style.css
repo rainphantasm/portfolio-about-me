@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Urbanist&display=swap');
+
+h1 {
+    font-family: 'Urbanist', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: 3.5em;
+    color: #ff00fe;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+header{
+    background-color: gray;
+}
+
+.self-image {
+    float: left;
+    width: auto;
+    max-width: 40%;
+    height: 245px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f2f2f297;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #ff00fe;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(28, 25, 25);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0.5px 0.5px .5px orchid;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: black;
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: gray;
+    border-top: 2px darkslateblue solid;
+    border-bottom: 2px darkslateblue solid;
+    padding: 5px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav a:link {
+    color: #ff00fe;
+}
+
+nav a:visited {
+    color: #ff00fe;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+nav a:active {
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:#ff00fe
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+
+footer a {
+    padding-right: 10px;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #ff00fe;
+    text-shadow: 0.5px 0.5px .5px black;
+
+}
+
+footer a:visited {
+    color: #ff00fe;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+footer a:active {
+    color: blue;
+}
+
+footer .footer-text{
+    color:#ff00fe;
+    text-shadow: 0.5px 0.5px .5px black;
+
+}
+
+.contact-icon{
+    font-size: 64px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1 {
+    font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
