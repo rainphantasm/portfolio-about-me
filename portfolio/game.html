@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>KhongMong's Portfolio Website::Resume</title>
+  <title>KhongMong's Portfolio ::GAME</title>
   <meta name="description" content="KhongMong's Game, shown on his portfolio website.">
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
@@ -21,9 +21,9 @@
 
 <body>
   <header>
-    <h1>KhongMong Thao</h1>
     <img src="images/small-logo.png" alt="logo" height="150" width=auto class="img-fluid logo">
   </header>
+  <!-- Bootstrap navbar-->
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +31,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Nav elements here-->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="game.html">Game</a></li>
@@ -50,12 +51,12 @@
       <div id="game"></div>
       <!--There are two versions of controls...one for desktop that uses a mouse and one for mobile devices The desktop has the desktop class and the mobile has the mobile class-->
       <div class="game-controls desktop">
-        <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">FLAP WINGS</button>
+        <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">FLAP FINS</button>
         <a href=""><button class="myButton">PLAY AGAIN</button></a>
       </div>
 
       <div class="game-controls mobile">
-        <button class="myButton" ontouchstart="accelerate(-0.2)" ontouchend="accelerate(0.05)">FLAP WINGS</button>
+        <button class="myButton" ontouchstart="accelerate(-0.2)" ontouchend="accelerate(0.05)">FLAP FINS</button>
         <a href=""><button class="myButton">PLAY AGAIN</button></a>
       </div>
 
